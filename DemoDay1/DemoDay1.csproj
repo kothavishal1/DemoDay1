@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1.Domain\DemoDay1.Domain.csproj" />
+    <ProjectReference Include="..\DemoDay1.Infra\DemoDay1.Infra.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
